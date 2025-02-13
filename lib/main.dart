@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
           height: 200,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/images/heart.png'),
+              image: AssetImage('lib/assets/images/heart.png'),
               fit: BoxFit.cover,
             ),
           ),
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               const Text(
-                'You have pushed the button this many times:',
+                '',
               ),
               Text(
                 '$_counter',
